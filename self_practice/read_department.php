@@ -16,8 +16,8 @@
 		echo "<tr>";
 		echo "<td> $department_id </td>";
 		echo "<td> $department_name </td>";
-		echo "<td> <a href = 'delete.php?id=$id'> Delete </a> </td>";
-		echo "<td> <a href = 'update_input.php?id=$id&f0=$f0&f1=$f1'> Update </a> </td>";
+		echo "<td> <a href = 'delete_department.php?department_id=$department_id'> Delete </a> </td>";
+		echo "<td> <a href = 'update_depertment_input.php?department_id=$department_id&department_name=$department_name'> Update </a> </td>";
 		echo "</tr> \n";
 	}
 

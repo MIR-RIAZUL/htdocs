@@ -1,0 +1,22 @@
+create database crud_practice;
+use crud_practice;
+
+create table teacher ( 
+	teacher_id INT(10) AUTO_INCREMENT, 
+	name char(30), 
+	course_id INT(10),
+	PRIMARY KEY(teacher_id) 
+);
+
+create table course ( 
+	course_id INT(10) AUTO_INCREMENT, 
+	
+	title char(30),
+	PRIMARY KEY(course_id) 
+);
+
+insert into teacher values ( '', 'A', '3' );
+insert into teacher values ( '', 'B', '4' );
+
+insert into course values ( '',  'DBMS' );
+insert into course values ( '',  'SPL' );
